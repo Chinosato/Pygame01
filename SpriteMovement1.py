@@ -26,7 +26,7 @@ class Player(pg.sprite.Sprite):
     def update(self):
         self.rect.y += 5
         if self.rect.top>WIDTH:
-            self.rect.bottom = 1
+            self.rect.bottom = 0
              
         
 
